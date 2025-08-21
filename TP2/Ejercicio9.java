@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Ejercicio9 {
     
-    // a. Método para calcular costo de envío según peso y zona
+    // Método para calcular costo de envío según peso y zona
     public static double calcularCostoEnvio(double peso, String zona) {
         double costoEnvio = 0;
 
@@ -32,7 +32,7 @@ public class Ejercicio9 {
         return costoEnvio;
     }
 
-    // b. Método para calcular total de compra
+    // Método para calcular total de compra
     public static double calcularTotalCompra(double precioProducto, double costoEnvio) {
         return precioProducto + costoEnvio;
     }
