@@ -9,7 +9,7 @@ public class Gallina {
     public Gallina(int idGallina, int edad) {
         this.idGallina = idGallina;
         this.edad = edad;
-        this.huevosPuestos = 0; // al inicio no tiene huevos puestos
+        this.huevosPuestos = 0;
     }
 
     // Método para poner un huevo
